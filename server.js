@@ -5,11 +5,14 @@ const favicon = require("serve-favicon");
 const logger = require("morgan");
 require("./config/database");
 
+//App config
 const app = express();
 
 app.use(logger("dev"));
 
+//Convert data to json
 app.use(express.json());
+
 // Configure both serve-favicon & static middleware
 // to serve from the production 'build' folder
 // app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
@@ -19,12 +22,7 @@ app.use(express.static(path.join(__dirname, "build")));
 // Be sure to mount before routes
 app.use(require("./config/checkToken"));
 
-// Put API routes here, before the "catch all" route
-// ======EXAMPLE======
-// //controller
-// const testController = (req, res) => {
-
-// }
+//
 
 // //route
 // app.get("/test", testController)

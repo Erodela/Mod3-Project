@@ -169,3 +169,33 @@ button[type="submit"] {
   grid-column: span 2;
   margin: 1vmin 0 0;
 }
+
+.Todo {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px 30px;
+}
+.Todo-Form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px;
+}
+.Todo-form-input {
+  background-color: #f7f7f7;
+  width: 25%;
+  padding: 8px;
+  border: 1px solid #ef7360;
+  border-radius: 8px;
+}
+.Todo-form-button {
+  background: #ef7360;
+  border-radius: 18px;
+  border: 2px solid #ef7360;
+  color: white;
+  margin-left: 1em;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
