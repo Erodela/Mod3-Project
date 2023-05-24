@@ -6,19 +6,16 @@ A To-do List made with the MERN stack
 ## Technology used:
 
 VS Code, HTML, CSS, Javascript, React
-NPM Libraries:
-"axios": "^1.4.0",
-"bcrypt": "^5.1.0",
-"dotenv": "^16.0.3",
-"express": "^4.18.2",
-"jsonwebtoken": "^9.0.0",
-"mongoose": "^7.1.1",
-"morgan": "^1.10.0",
-"react": "^18.2.0",
-"react-dom": "^18.2.0",
-"react-router-dom": "^6.11.1",
-"react-scripts": "5.0.1",
-"serve-favicon": "^2.5.0",
+NPM Libraries: axios
+bcrypt
+dotenv
+express
+jsonwebtoken mongoose morgan
+react
+react-dom
+react-router-dom
+react-scripts
+serve-favicon 
 
 ## Getting started:
 Trello Board
