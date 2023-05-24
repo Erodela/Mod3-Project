@@ -5,7 +5,7 @@ A To-do List made with the MERN stack
 
 ## Technology used:
 
-VS Code, HTML, CSS, Javascript, React, 
+VS Code, HTML, CSS, Javascript, MongoDB, Express, React, Node.js,
 NPM Libraries: axios bcrypt dotenv express jsonwebtoken mongoose morgan react react-dom react-router-dom react-scripts serve-favicon 
 
 ## Getting started:
